@@ -1,0 +1,89 @@
+/* 
+ * File:   main.cpp
+ * Author: PERSONAL
+ *
+ * Created on 21 de diciembre de 2016, 11:00 AM
+ */
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+/*
+ * 
+ */
+#define max_int  2147483647
+bool ar[1000001];
+
+bool primo(long num, long div) {//como divisor recibimos la mitad del numero
+    return ((div == 1) ? 1 : (num % div == 0) ? 0 : primo(num, div - 1));
+}
+
+//string to_string(long Val) { // convert long to string
+//    char cad[10000];
+//    sprintf(cad, "%ld", Val);
+//    return string(cad);
+//}
+
+void cargar(){
+    int i=1;
+    for(;i < 1000001;i++){
+        ar[i]=primo(i,sqrt(i));
+    }
+}
+
+int long reverse(long n) {
+    long rev = 0;
+    while (n) {
+        rev = rev * 10 + (n % 10);
+        n /= 10;
+    }
+    return rev;
+}
+
+//
+//int long  primo(int long  n)
+//{
+//      int  long i,count=1,tmp,root;
+//      root=sqrt(n);
+//      for(i=2;i<=root;i++){
+//            if(n%i==0){
+//                  count=0;
+//                  break;
+//            }
+//      }
+//      if(count==1)
+//      return n;
+//}
+
+int main(int argc, char** argv) {
+//    freopen("in.txt", "r", stdin);
+//    freopen("out.txt", "w", stdout);
+//    int data = 1000000;
+    cargar();
+    long a, inver;
+    string cad;
+    while (scanf("%ld", &a) != EOF) {
+        if (primo(a, sqrt(a))) {
+            inver = reverse(a);
+            if (primo(inver, sqrt(inver)) && inver!=a) {
+                printf("%ld is emirp.\n", a);
+            } else {
+                printf("%ld is prime.\n", a);
+            }
+        } else {
+            printf("%ld is not prime.\n", a);
+        }
+    }
+    return 0;
+}
+
+
+//    string o = "hola";
+//    string num = to_string(10);
+//    int n=atoi("17");
+//    printf("kk %x\n",n);
+//    printf("->> %s\n", num.c_str());
+//    reverse(o.begin(), o.end());
+//    reverse(num.begin(), num.end());
+//    printf("%,,,s\n", o.c_str());
