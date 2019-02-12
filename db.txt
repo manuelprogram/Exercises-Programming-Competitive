@@ -1,0 +1,130 @@
+alg.exe
+amsvc.exe
+armsvc.exe
+audiodg.exe
+atieclxx.exe
+atiesrxx.exe
+BrcmMgmtAgent.exe
+cmd.exe
+csrss.exe
+chrome.exe
+conhost.exe
+dwm.exe
+dllhost.exe
+DeployService.exe
+EvtEng.exe
+explorer.exe
+jucheck.exe
+jusched.exe
+lsass.exe
+msseces.exe
+MsMpEng.exe
+MpCmdRun.exe
+NisSrv.exe
+RegSrvc.exe
+System
+smss.exe
+swsys.exe
+samimpl.exe
+svchost.exe
+spoolsv.exe
+services.exe
+samimpl64.exe
+SearchIndexer.exe
+SearchFilterHost.exe
+SearchProtocolHost.exe
+taskhost.exe
+tasklist.exe
+taskhostex.exe
+TeamViewer_Service.exe
+TunnelBear.Maintenance.ex
+unsecapp.exe
+wininit.exe
+WmiPrvSE.exe
+WUDFHost.exe
+winlogon.exe
+ZeroConfigService.exe
+@
+System                           4 Services                   0       244 KB
+smss.exe                       312 Services                   0     1.012 KB
+csrss.exe                      400 Services                   0     4.052 KB
+wininit.exe                    488 Services                   0     4.048 KB
+csrss.exe                      508 Console                    1     7.972 KB
+winlogon.exe                   564 Console                    1     8.260 KB
+services.exe                   588 Services                   0     8.020 KB
+lsass.exe                      596 Services                   0    15.024 KB
+svchost.exe                    684 Services                   0    12.944 KB
+svchost.exe                    728 Services                   0     8.488 KB
+MsMpEng.exe                    816 Services                   0   131.104 KB
+dwm.exe                        852 Console                    1    41.456 KB
+atiesrxx.exe                   888 Services                   0     4.052 KB
+svchost.exe                    912 Services                   0    27.864 KB
+svchost.exe                   1000 Services                   0    84.592 KB
+svchost.exe                   1016 Services                   0    46.788 KB
+svchost.exe                    292 Services                   0    21.220 KB
+atieclxx.exe                   404 Console                    1     6.936 KB
+svchost.exe                   1080 Services                   0    19.692 KB
+spoolsv.exe                   1280 Services                   0    13.772 KB
+svchost.exe                   1308 Services                   0    24.272 KB
+armsvc.exe                    1484 Services                   0     4.204 KB
+BrcmMgmtAgent.exe             1556 Services                   0     7.020 KB
+DeployService.exe             1616 Services                   0    17.300 KB
+svchost.exe                   1652 Services                   0    11.676 KB
+EvtEng.exe                    1672 Services                   0    10.684 KB
+svchost.exe                   1776 Services                   0     3.448 KB
+svchost.exe                   1828 Services                   0     3.404 KB
+RegSrvc.exe                   1860 Services                   0     6.668 KB
+amsvc.exe                     1948 Services                   0    10.572 KB
+svchost.exe                   1472 Services                   0     6.412 KB
+TeamViewer_Service.exe        1792 Services                   0    15.016 KB
+TunnelBear.Maintenance.ex     1976 Services                   0    34.884 KB
+ZeroConfigService.exe         2348 Services                   0    12.460 KB
+WmiPrvSE.exe                  2564 Services                   0     9.416 KB
+unsecapp.exe                  2656 Services                   0     4.408 KB
+WmiPrvSE.exe                  2732 Services                   0     9.184 KB
+swsys.exe                     2320 Console                    1    34.324 KB
+explorer.exe                  2328 Console                    1   193.828 KB
+samimpl.exe                   2848 Console                    1     1.360 KB
+samimpl64.exe                 2692 Console                    1     1.712 KB
+samimpl.exe                   2696 Console                    1     1.312 KB
+samimpl64.exe                 2724 Console                    1     2.160 KB
+taskhostex.exe                2056 Console                    1    11.480 KB
+cmd.exe                       3788 Console                    1     2.416 KB
+conhost.exe                   3796 Console                    1     7.844 KB
+svchost.exe                   3956 Services                   0    13.348 KB
+alg.exe                       4024 Services                   0     3.768 KB
+SearchIndexer.exe             4048 Services                   0    34.492 KB
+svchost.exe                   3452 Services                   0     4.524 KB
+WUDFHost.exe                  3820 Services                   0    11.288 KB
+SearchProtocolHost.exe        4532 Services                   0     6.128 KB
+msseces.exe                   4724 Console                    1    15.508 KB
+jusched.exe                   4836 Console                    1     9.292 KB
+chrome.exe                    4284 Console                    1   154.688 KB
+chrome.exe                    2552 Console                    1     6.784 KB
+chrome.exe                    3604 Console                    1     7.236 KB
+chrome.exe                    3368 Console                    1   107.356 KB
+chrome.exe                    4400 Console                    1    96.848 KB
+dllhost.exe                   2716 Console                    1     6.348 KB
+chrome.exe                    1548 Console                    1    52.152 KB
+chrome.exe                    2380 Console                    1    29.664 KB
+chrome.exe                    4568 Console                    1    62.416 KB
+chrome.exe                    4548 Console                    1    37.344 KB
+jucheck.exe                   4016 Console                    1    12.148 KB
+chrome.exe                    5300 Console                    1    75.812 KB
+taskhost.exe                  5844 Services                   0    11.532 KB
+codeblocks.exe                1216 Console                    1    89.276 KB
+chrome.exe                    1692 Console                    1    80.492 KB
+chrome.exe                    5564 Console                    1    72.508 KB
+chrome.exe                    4424 Console                    1    56.520 KB
+chrome.exe                    5628 Console                    1    91.776 KB
+chrome.exe                     168 Console                    1   204.540 KB
+chrome.exe                    5268 Console                    1    34.496 KB
+chrome.exe                    5892 Console                    1    60.256 KB
+chrome.exe                    2608 Console                    1    55.492 KB
+chrome.exe                    1316 Console                    1    65.440 KB
+chrome.exe                    5188 Console                    1    56.380 KB
+chrome.exe                    5988 Console                    1    18.708 KB
+audiodg.exe                   5596 Services                   0     9.148 KB
+notepad.exe                   3108 Console                    1     9.068 KB
+SearchFilterHost.exe          2376 Services                   0     4.376 KB
+tasklist.exe                  4464 Console                    1     5.624 KB
